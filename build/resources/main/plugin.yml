@@ -1,0 +1,8 @@
+name: bSalary
+version: '1.0'
+main: ru.mine.banoff.BSalary
+api-version: '1.16'
+depend:
+  - Vault
+commands:
+  salary:

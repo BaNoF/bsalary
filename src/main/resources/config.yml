@@ -1,0 +1,24 @@
+# всем привет это BaNoF_ это мой первый плагин (после java рехаба)
+# плагин будет обновляться в зависимости от вас.
+# если нашли баг, то пишите в комментарии на форуме.
+
+messages:
+  null_group: "&#DE3939ℹ &fУ вас нет группы с зарплатой"
+  accepted: "&#F6C997✔ &fВы получили зарплату"
+  cooldown: "&#DE3939ℹ &fВы получите зарплату через {time} секунд"
+
+sounds: # звуки можно найти на сайте - http://www.gkrond.ru/Articles/Read/2/Imena_zvukov_i_rabota_komandy_playsound.html
+  accepted: "ENTITY_PLAYER_LEVELUP" # (писать через _ а не через .)
+  declined: "ENTITY_VILLAGER_NO"
+
+salaries:
+  default: # название группы из LuckPerms ( обязательно )
+    cooldown: 600 # кулдаун в секундах
+    commands: # команды для выдачи, можно писать любые команды. {player} - это ник игрока который прописывает команду
+      - "p give {player} 1"
+      - "eco give {player} 1"
+  test: # изменить!!!
+    cooldown: 1000
+    commands:
+      - "p give {player} 1"
+      - "eco give {player} 1"
